@@ -1,4 +1,22 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {background-color:black;font-family:arial;color:rgb(0, 0, 0)}
+h1{color:grey;font-family:verdana}
+div.maindiv {
+    background-color: white;
+    width:500px;
+    padding: 20px;
+    border-radius: 25px;
+}
+#result{
+    text-align: left;
+    text-decoration-style: solid;
+}
+/* to set button in left bottom */
+button{
+    margin-left: -155px;
+    margin-bottom: 10px;
+}
+/* to set footer in left bottom */
+footer{
+    margin-top: 5px;
+    text-align : left;
+}
