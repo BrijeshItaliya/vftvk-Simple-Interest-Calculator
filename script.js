@@ -9,7 +9,7 @@ function compute()
     // sum of the date with the year
     var year = new Date().getFullYear()+parseInt(years);
     // for validation of the number if it is negative so it generate alert message
-    if(p<0){
+    if(p<0||p=""){
         alert("Enter positive number")
         p.focus();
         return false;
